@@ -45,6 +45,9 @@
    background: transparent;
    border: 2px solid whitesmoke;
    transition: ease .1s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .form__button:focus {
