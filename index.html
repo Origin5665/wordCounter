@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <title>Счетчик слов</title>
+</head>
+
+<body class="page">
+   <div class="container">
+      <H2 class="title animate__animated animate__tada">Счетчик слов</H2>
+      <form class="form">
+         <textarea placeholder="Введите предложение..." class="form__textaria" type="text"></textarea>
+         <button type="button" class="form__button">Узнать</button>
+         <p class="form__error"></p>
+      </form>
+      <h3 class="result__title">Ваш результат:</h3>
+      <div class="result ">
+         <template>
+            <div class="result__block animate__animated animate__fadeInUp">
+               <p class="result__name"></p>
+               <p class="result__value"></p>
+            </div>
+         </template>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
